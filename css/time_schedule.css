@@ -1,0 +1,27 @@
+table,th {
+    border: 1px inset #333;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.offer,.explanation {
+    border: 1px inset #333;
+}
+.offer {
+    background: aquamarine;
+}
+.explanation {
+    background:mediumslateblue;
+}
+.setting {
+    background: silver;
+    text-align: center;
+}
+
+.place {
+    font-size: 1.5rem;
+}
+.place th {
+    height: 60px;
+}
