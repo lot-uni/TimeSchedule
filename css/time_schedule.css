@@ -1,22 +1,79 @@
+body {
+    background-image: url(../img/Screenshot.png);
+    text-align: center;
+}
+h1 {
+    font-size: 3vw;
+    font-weight: 800;
+}
+.hour {
+    width: 3%;
+}
+.day span {
+    line-height: 1;
+}
+.detail {
+    font-size: 1vw;
+    font-weight: 600;
+    display: inline-block;
+    text-align: left;
+    vertical-align: bottom;
+}
+.setting {
+    text-align: center;
+}
+span {
+    /* font-size: 1.7rem;
+    font-weight: 200; */
+    font-size: 1.9vw;
+    font-weight: 600;
+    margin-left: 15px;
+    display:inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
 table,th {
     border: 1px inset #333;
 }
 table {
     border-collapse: collapse;
-    width: 100%;
+    min-width: 600px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #fff;
+}
+#day1 th {
+    background: #009999;
+    color: whitesmoke;
+}
+#day1 .floor {
+    background: #005654;
+}
+.sat {
+    font-size: 1.7rem;
+    color: #0099ff;
+}
+#day2 th {
+    background: #9a1629;
+    color: whitesmoke;
+}
+#day2 .floor {
+    background: #5e0e19;
 }
 .offer,.explanation {
     border: 1px inset #333;
 }
 .offer {
-    background: aquamarine;
+    background: #dff5f1;
 }
 .explanation {
-    background:mediumslateblue;
+    background:#dff5f1;
 }
 .setting {
     background: silver;
-    text-align: center;
 }
 
 .place {
@@ -24,4 +81,7 @@ table {
 }
 .place th {
     height: 60px;
+}
+.time {
+    width: 10%;
 }
