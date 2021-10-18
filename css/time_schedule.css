@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/Screenshot.png);
+    background-color: #3870cf;
     text-align: center;
 }
 h1 {
@@ -11,6 +11,9 @@ h1 {
 }
 .day span {
     line-height: 1;
+}
+h1 {
+    color:#f5f5f5;
 }
 h1 label {
     display: block;
@@ -33,6 +36,9 @@ span {
 }
 table,th {
     border: 1px inset #333;
+}
+table {
+    width: 80%;
 }
 #day1,#day2 {
     border-collapse: collapse;
@@ -58,6 +64,10 @@ table,th {
 #day2 .floor {
     background: #5e0e19;
 }
+td {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 .offer,.explanation {
     border: 1px inset #333;
 }
@@ -80,9 +90,6 @@ table,th {
 .time {
     width: 10%;
 }
-.detail {
-    background-color: rgba(255, 255, 153, 0.5);
-}
 .sat {
     color: #0099ff;
 }
@@ -103,6 +110,14 @@ table,th {
     h1 label {
         font-size: 10px;
     }
+    table {
+        width: 90%;
+    }
+    td {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
 }
 @media screen and (max-width: 1045px) {
     h1 label {
